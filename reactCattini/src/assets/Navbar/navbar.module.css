@@ -1,0 +1,48 @@
+.cuerpo {
+    width: 100vw;
+    background-color: #8d0000 ;
+    padding: 0;
+    margin: 0;
+    border-bottom-left-radius: 40px ;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+  
+  
+    
+  
+  }
+  
+  .imagen{
+    margin: 0;padding: 0;
+    display: flex;
+    flex-direction: row;
+  
+  
+    
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+  
+  
+  }
+  
+  .menu ul li{
+    list-style: none; 
+    display: inline-block;
+    margin: 0 20px
+    ;
+    
+  }
+  .menu ul li:hover{
+    background-color: #191970;
+    border-radius: 10px;
+  
+  }
+  .menu ul li a{
+  
+    color: white;
+    text-decoration: none; 
+    margin: 10px;
+  }
